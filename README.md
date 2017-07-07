@@ -1,2 +1,2 @@
 # ComputationalThinking
-A ten week course on Computational Thinking.
+A nine week course on Computational Thinking.
