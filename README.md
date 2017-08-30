@@ -1,5 +1,13 @@
 # ComputationalThinking
-A nine week course on ComputationalThinking.
+A nine week course on Computational Thinking.
+
+Slides created using [Reveal.js](https://github.com/hakimel/reveal.js/).
+
+Code written in [p5.js](https://p5js.org/).
+
+References:
+* [Rune Madsen](https://runemadsen.com)'s course - [Programming Design Systems](http://printingcode.runemadsen.com/)
+* [Ali Almossawi](https://almossawi.com/")'s [Book of Bad Choices](https://bookofbadchoices.com/)
 
 Copyright (C) 2017 Joel Gethin Lewis
 
