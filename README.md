@@ -1,2 +1,2 @@
-# ComputationalGraphicalThinking
-A nine week course on Computational Graphical Thinking.
+# ComputationalThinking
+A nine week course on ComputationalThinking.
