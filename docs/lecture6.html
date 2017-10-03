@@ -35,10 +35,75 @@
 					<ol>
 						<li>Repetition.</li>
 						<li>Fixing necklaces.</li>
-						<li>Classes.</li>
-						<li>How to make a new animated gif class.</li>
-						<li>How to use search engines.</li>
+						<li>How to load a gif in p5.js.</li>
+						<li>How to make a GUI (Graphical User Interface) in p5.js to display frames of a gif.</li>
 					</ol>
+				</section>
+				<section>
+					<h3>Repetition.</h3>
+					<p>Thanks again to Rune Madsen for putting his course online:</p>
+					<p><a href="http://printingcode.runemadsen.com/lecture-repetition/">http://printingcode.runemadsen.com/lecture-repetition/</a></p>
+					<p>Don't to click to the slides and press 's' Joel!</p>
+				</section>
+				<section>
+					<h3>Fixing necklaces.</h3>
+					<p>Thanks again to Ali Almossawi for writing his book.</p>
+					<p>Read the Fixing necklaces chapter of "Bad Choices" Joel!</p>
+				</section>
+				<section>
+					<h3>How to load a gif in p5.js.</h3>
+					<p>Next we'd like to get on with the work that we set for ourselves in lecture one - to make an Animated GIF maker.</p>
+					<p>So how do I load animated gifs in p5.js?</p>
+					<p>Google: <a href="https://www.google.co.uk/search?q=animated+gif+p5.js">"animated gif p5.js"</a></p>
+				</section>
+				<section>
+					<h3>How to load a gif in p5.js.</h3>
+					<p><a href="https://github.com/antiboredom/p5.gif.js/tree/master">https://github.com/antiboredom/p5.gif.js/tree/master</a> looks great!</p>
+					<p>So lets download it.</p>
+					<p>And try it, by opening the file in the browser.</p>
+				</section>
+				<section>
+					<h3>How to load a gif in p5.js.</h3>
+					<p>It doesn't work. )-;</p>
+					<p>Don't panic! Lets look at the in Javascript Console.</p>
+					<p>Hmmm. I don't know what that means, lets Google: <a href="https://www.google.co.uk/search?q=p5.js+Cross+origin+error">"p5.js cross origin error"</p>
+				</section>
+				<section>
+					<h3>How to load a gif in p5.js.</h3>
+					<p>Looks like I have to <a href="https://github.com/processing/p5.js/wiki/Local-server">install a server for p5.js</a>.</p>
+					<p>Lets follow the instructions to install node.js.</p>
+					<p>CAUTION: COMMAND LINE INTERFACE WARNING!</p>
+					<p>Let's go to the folder that contains the file we are trying to get working and run the webserver inside it, by dragging and dropping the folder onto the Terminal icon and running: "http-server -c-1".</p>
+				</section>
+				<section>
+					<h3>How to make a GUI (Graphical User Interface) in p5.js to display frames of a gif.</h3>
+					<p>Wouldn't it be great to be able to slide a slider instead of having to hold my mouse in one place?</p>
+					<p>Let's use a GUI library to let us do that via the <a href="https://p5js.org/libraries/">p5.js libraries page</a>.</p>
+					<p><a href="https://github.com/bitcraftlab/p5.gui">p5.gui</a>looks good. Let's download it and try it.</p>
+				</section>
+				<section>
+					<h3>How to make a GUI (Graphical User Interface) in p5.js to display frames of a gif.</h3>
+					<p>The examples look good. So lets start with the old gif example from p5.gif.js and go from there.</p>
+					<p>OK, lets add the most basic p5.gui to it, just with both running together in the same sketch.js. First look at index.html and then sketch.js from the pacman p5.gui example and then duplicate them over.</p>
+				</section>
+				<section>
+					<h3>How to make a GUI (Graphical User Interface) in p5.js to display frames of a gif.</h3>
+					<p>So now we have both running together, we can disable the mouse movement code, as we want it to be controlled by the GUI.</p>
+					<p>We can get rid of the colour picker too.</p>
+					<p>We can edit myAngle to be called something better...</p>
+				</section>
+				<section>
+					<h3>How to make a GUI (Graphical User Interface) in p5.js to display frames of a gif.</h3>
+					<p>So lets set it to myFrame, and change to display the correct frame.</p>
+					<p>But how do I know the correct range?</p>
+					<p>That doesn't seem to be working, lets add console.log to see what is going on.</p>
+					<p>It's saying 0? I guess the gif hasn't loaded at that point.</p>
+				</section>
+				<section>
+					<h3>How to make a GUI (Graphical User Interface) in p5.js to display frames of a gif.</h3>
+					<p>So lets keep checking until it is loaded, THEN add the GUI</p>
+					<p>Use a boolean value! (I use this all the time in my code).</p>
+					<p>We can even display a loading message while we are waiting. How do we do that? Google <a href="https://www.google.com/search?q=displaying+text+in+p5.js">"displaying text in p5.js"</a>.</p>
 				</section>
 				<section>
 					<h2>Thanks!</h2>
