@@ -33,24 +33,3 @@ function checkGifLoaded(){
     guiReady = true;
   }
 }
-
-// function mouseMoved() {
-//   if (gif.loaded() && !gif.playing()){
-//     var totalFrames = gif.totalFrames();
-//     var frame = int(map(mouseX, 0, width, 0, totalFrames));
-//     gif.frame(frame);
-//   }
-// }
-
-// function mousePressed() {
-//   if (gif.playing()) {
-//     gif.pause();
-//   } else {
-//     gif.play();
-//   }
-// }
-
-// dynamically adjust the canvas to the window
-function windowResized() {
-  resizeCanvas(windowWidth, windowHeight);
-}
